@@ -2,8 +2,9 @@ apiVersion: build.openshift.io/v1
 kind: BuildConfig
 metadata:
   labels:
-    name: nodes-pipeline
-  name: nodes-pipeline
+    name: nodejs-pipeline
+  name: nodejs-pipeline
+  namespace: test-pipeline
 spec:
   strategy:
     jenkinsPipelineStrategy:
