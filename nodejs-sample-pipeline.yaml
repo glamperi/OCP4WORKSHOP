@@ -112,5 +112,5 @@ spec:
                 } // stage
             } // stages
         } // pipeline
-        type: JenkinsPipeline
+        
   
